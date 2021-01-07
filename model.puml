@@ -1,0 +1,40 @@
+@startuml
+
+package model1.py {
+    class A {
+
+    }
+
+    class B {
+    }
+
+    entity a <<M, #FFFFFF>>{
+
+    }
+
+    entity c <<V, #FFF000>>{
+
+    }
+
+}
+
+
+package model2.py {
+
+    class C {
+
+    }
+
+    class D {
+    }
+
+    entity e <<M, #FFFFFF>>{
+
+    }
+
+    entity d <<V, #FFF000>>{
+
+    }
+
+}
+@enduml
